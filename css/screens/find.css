@@ -4,16 +4,19 @@
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
+.recommended-friends > .user-component {
+  margin-bottom: 10px;
+}
 .recommended-friends__title {
-  font-size: 14px;
   color: var(--text-grey);
+  margin-bottom: 20px;
 }
 .recommended-friends span {
   display: block;
   padding: 100px 0px;
   text-align: center;
+  font-size: 14px;
   color: var(--text-grey);
-  font-size: 18px;
 }
 .open-chat__header {
   display: flex;
@@ -28,6 +31,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 .open-post__title {
   font-weight: 600;
