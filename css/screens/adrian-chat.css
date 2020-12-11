@@ -1,16 +1,18 @@
 #fixed-header {
-  background-color: #abc1d1;
+  background-color: #2e176a;
   height: 100vh;
 }
 #fixed-header .alt-header,
 #fixed-header .status-bar {
-  background-color: #abc1d1;
+  background-color: #2e176a;
+  color: rgba(255, 255, 255, 0.9);
   top: 0;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
 }
 #fixed-header .status-bar {
+  font-weight: 300;
   z-index: 2;
 }
 #fixed-header .alt-header {
@@ -26,8 +28,8 @@
 }
 
 .chat__timestamp {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #dde0fe;
   padding: 10px;
   border-radius: 25px;
   font-size: 14px;
@@ -78,11 +80,15 @@
 }
 .message__bubble {
   background-color: white;
+  box-shadow: 0px 5px 15px #dde0fe;
   padding: 10px 12px;
   margin: 0px 5px;
   border-radius: 16px;
   border-top-left-radius: 2.4px;
   font-size: 18px;
+}
+.mine {
+  color: white;
 }
 .message__author,
 .message__time {
@@ -94,7 +100,7 @@
   animation: fadeInRight 0.5s linear;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: #5d55c2;
   border-top-right-radius: 2.4px;
   border-top-left-radius: 16px;
 }
@@ -118,7 +124,7 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #dde0fe;
   display: flex;
   justify-content: space-between;
   padding: 5px 30px;
@@ -138,6 +144,7 @@
 }
 .reply__column button i {
   opacity: 1;
+  color: white;
 }
 .reply input {
   padding: 10px;
@@ -159,7 +166,7 @@
   top: 4px;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border: none;
   width: 32px;
   height: 32px;
@@ -182,8 +189,12 @@
 }
 .reply input:focus {
   width: 88vw;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   transform: translateX(-13%) translateY(-80px);
+  color: white;
+}
+.reply input:focus::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 .reply:focus-within {
   transform: translateY(80px);

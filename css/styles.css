@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -23,13 +23,14 @@
 @import "screens/adrian-chat.css";
 
 body {
-  background-color: teal;
+  background-color: #2e176a;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .main-screen {
-  background-color: white;
+  background-color: #f8f6fd;
   padding: 0px var(--horizontal-space);
   height: 110vh;
   margin-top: 104px;

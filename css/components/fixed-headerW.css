@@ -1,11 +1,13 @@
 #fixed-headerW .screen-header,
 #fixed-headerW .alt-header,
 #fixed-headerW .status-bar {
-  background-color: blue;
+  background-color: #2e176a;
+  color: rgba(255, 255, 255, 0.9);
   top: 0;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  font-weight: 300;
 }
 #fixed-headerW .status-bar {
   z-index: 2;
