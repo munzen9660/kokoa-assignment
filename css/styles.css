@@ -23,14 +23,19 @@
 @import "screens/adrian-chat.css";
 
 body {
+  background-color: teal;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
 }
 
 .main-screen {
+  background-color: white;
   padding: 0px var(--horizontal-space);
   height: 110vh;
-  margin-top: 120px;
+  margin-top: 104px;
+  padding-top: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .main-friends {

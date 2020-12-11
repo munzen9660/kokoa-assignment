@@ -1,7 +1,7 @@
 #fixed-headerW .screen-header,
 #fixed-headerW .alt-header,
 #fixed-headerW .status-bar {
-  background-color: white;
+  background-color: blue;
   top: 0;
   position: fixed;
   width: 100%;
