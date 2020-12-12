@@ -32,7 +32,7 @@ body {
 .main-screen {
   background-color: var(--cool-grey);
   padding: 0px var(--horizontal-space);
-  height: 100vh;
+  height: 108vh;
   margin-top: 104px;
   padding-top: 20px;
   border-top-left-radius: 20px;
