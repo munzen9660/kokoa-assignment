@@ -34,7 +34,7 @@
 }
 
 #splash-screen {
-  background-color: var(--blue);
+  background-color: var(--main-blue);
   color: rgba(255, 255, 255, 0.85);
   position: absolute;
   width: 100vw;

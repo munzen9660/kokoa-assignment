@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #2e176a;
+  background-color: var(--main-blue);
   padding: 20px 50px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.9);
@@ -39,7 +39,7 @@
 }
 
 .nav__notification-setting {
-  background-color: #ff397f;
+  background-color: var(--noti-pink);
   width: 6px;
   height: 6px;
   border-radius: 50%;

@@ -1,10 +1,10 @@
 #fixed-header {
-  background-color: #2e176a;
+  background-color: var(--main-blue);
   height: 100vh;
 }
 #fixed-header .alt-header,
 #fixed-header .status-bar {
-  background-color: #2e176a;
+  background-color: var(--main-blue);
   color: rgba(255, 255, 255, 0.9);
   top: 0;
   position: fixed;
@@ -29,7 +29,7 @@
 
 .chat__timestamp {
   color: rgba(0, 0, 0, 0.5);
-  background-color: #dde0fe;
+  background-color: var(--pale-blue);
   padding: 10px;
   border-radius: 25px;
   font-size: 14px;
@@ -100,7 +100,7 @@
   animation: fadeInRight 0.5s linear;
 }
 .message-row--own .message__bubble {
-  background-color: #5d55c2;
+  background-color: var(--point-blue);
   border-top-right-radius: 2.4px;
   border-top-left-radius: 16px;
 }
@@ -124,7 +124,7 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #dde0fe;
+  background-color: var(--pale-blue);
   display: flex;
   justify-content: space-between;
   padding: 5px 30px;
@@ -166,7 +166,7 @@
   top: 4px;
 }
 .reply__column button {
-  background-color: var(--blue);
+  background-color: var(--main-blue);
   border: none;
   width: 32px;
   height: 32px;

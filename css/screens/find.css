@@ -65,7 +65,7 @@
   margin: 0px 5px;
 }
 .open-post__memember-status {
-  color: #ffb0e0;
+  color: var(--noti-pink);
 }
 .open-post__photo {
   position: relative;

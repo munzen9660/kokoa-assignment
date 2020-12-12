@@ -1,5 +1,9 @@
 :root {
-  --blue: #2e176a;
+  --noti-pink: #ff397f;
+  --cool-grey: #f8f6fd;
+  --pale-blue: #dde0fe;
+  --point-blue: #7d7afb;
+  --main-blue: #2e176a;
   --horizontal-space: 25px;
   --main-border: 1.2px solid rgba(0, 0, 0, 0.12);
   --text-grey: rgba(0, 0, 0, 0.35);

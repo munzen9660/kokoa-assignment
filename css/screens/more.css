@@ -22,7 +22,7 @@
 .more-suggestion__icon-image {
   width: 52px;
   height: 52px;
-  background-color: #5d55c2;
+  background-color: var(--point-blue);
   border-radius: 15%;
   display: flex;
   justify-content: center;

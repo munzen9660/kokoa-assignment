@@ -16,7 +16,7 @@
 span .screen-header__noti-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff397f;
+  background-color: var(--noti-pink);
   border-radius: 50%;
   position: absolute;
   bottom: 20px;

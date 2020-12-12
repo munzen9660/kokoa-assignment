@@ -1,5 +1,5 @@
 .badge {
-  background-color: #ff397b;
+  background-color: var(--noti-pink);
   width: 22px;
   height: 22px;
   border-radius: 50%;
