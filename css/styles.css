@@ -20,7 +20,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
-@import "screens/adrian-chat.css";
+@import "screens/in-chat.css";
 
 body {
   background-color: #2e176a;
@@ -32,7 +32,7 @@ body {
 .main-screen {
   background-color: var(--cool-grey);
   padding: 0px var(--horizontal-space);
-  height: 110vh;
+  height: 100vh;
   margin-top: 104px;
   padding-top: 20px;
   border-top-left-radius: 20px;

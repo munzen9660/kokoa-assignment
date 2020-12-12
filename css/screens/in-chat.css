@@ -61,12 +61,18 @@
 .message-row {
   width: 100%;
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
   animation: fadeInLeft 0.5s linear;
 }
 .message-row img {
   width: 50px;
   height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.message-row-notfirst {
+  width: 50px;
+  height: 40px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -189,7 +195,7 @@
 }
 .reply input:focus {
   width: 88vw;
-  background-color: var(--blue);
+  background-color: var(--main-blue);
   transform: translateX(-13%) translateY(-80px);
   color: white;
 }

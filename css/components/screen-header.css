@@ -24,18 +24,26 @@ span .screen-header__noti-dot {
 
 .screen-header__icons .fa-search:hover {
   animation: jello-horizontal 0.8s both;
+  transition: color 0.4s ease-in-out;
+  color: var(--point-blue);
 }
 
 .screen-header__icons .fa-comment-dots:hover {
   animation: shake-left 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  transition: color 0.4s ease-in-out;
+  color: var(--point-blue);
 }
 
 .screen-header__icons .fa-music:hover {
   animation: vibrate-2 0.3s linear infinite both;
+  transition: color 0.4s ease-in-out;
+  color: var(--point-blue);
 }
 
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
+  transition: color 0.4s ease-in-out;
+  color: var(--point-blue);
 }
 
 @keyframes rotateCog {

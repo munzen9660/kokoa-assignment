@@ -18,6 +18,7 @@
   font-weight: 600;
   font-size: 22px;
 }
+
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 16px;
@@ -39,6 +40,7 @@
 }
 .user-component__title--not-bold {
   font-weight: 400;
+  font-size: 18px;
 }
 .user-component__column:last-child {
   color: var(--text-grey);
