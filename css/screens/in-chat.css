@@ -136,7 +136,7 @@
   padding: 5px 30px;
   animation: fadeIn 0.5s linear;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
