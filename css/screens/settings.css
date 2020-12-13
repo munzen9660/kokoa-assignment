@@ -1,4 +1,9 @@
+.settings-list {
+  margin-top: 100px;
+}
 .setting-container {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   padding: 15px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   background-color: var(--cool-grey);
