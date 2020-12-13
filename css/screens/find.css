@@ -8,7 +8,6 @@
   margin-bottom: 10px;
 }
 .recommended-friends__title {
-  color: var(--text-grey);
   margin-bottom: 20px;
 }
 .recommended-friends span {
@@ -18,13 +17,13 @@
   font-size: 14px;
   color: var(--text-grey);
 }
-.open-chat__header {
+.open-group__header {
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
   margin-bottom: 25px;
 }
-.open-chat__header span {
+.open-group__header span {
   color: var(--text-grey);
 }
 .open-post {
@@ -65,7 +64,7 @@
   margin: 0px 5px;
 }
 .open-post__memember-status {
-  color: var(--noti-pink);
+  color: var(--point-blue);
 }
 .open-post__photo {
   position: relative;
@@ -92,17 +91,14 @@
 }
 
 @keyframes heartBeat {
-  0% {
+  0%,
+  100% {
     color: white;
     transform: none;
   }
   50% {
-    color: tomato;
+    color: var(--noti-pink);
     transform: scale(1.5);
-  }
-  100% {
-    color: white;
-    transform: none;
   }
 }
 

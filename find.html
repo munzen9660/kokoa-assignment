@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>Find - ProTalk</title>
   </head>
   <body id="fixed-headerW">
     <div class="status-bar">
@@ -35,25 +35,26 @@
     <main class="main-screen">
       <div class="icon-row">
         <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>Contact</span>
+        </div>
+        <div class="icon-row__icon">
           <i class="fas fa-qrcode"></i>
           <span>QR Code</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-address-book"></i>
-          <span>by Contact</span>
+          <i class="far fa-user-circle"></i>
+          <span>Account</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i>
-          <span>by ID</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fas fa-link"></i>
+          <span>Invite URL</span>
         </div>
       </div>
 
       <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <h6 class="recommended-friends__title">Suggested for you</h6>
+        <!-- New Friends -->
         <div class="user-component">
           <div class="user-component__column">
             <img
@@ -112,19 +113,17 @@
           </div>
         </div>
       </div>
-
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4 class="open-chat__title">Hobby Chat</h4>
-          <span
-            >Go to Hobby Home <i class="fas fa-chevron-right fa-xs"></i
-          ></span>
+      <!-- open group -->
+      <div class="open-group">
+        <div class="open-group__header">
+          <h4 class="open-group__title">Your Open Groups</h4>
+          <span>More Groups<i class="fas fa-chevron-right fa-xs"></i></span>
         </div>
       </div>
       <div class="open-post">
         <div class="open-post__columns">
-          <h5 class="open-post__title">#Recipe-sharing</h5>
-          <h6 class="open-post__hashtags">#cook#recipe#food#homecook</h6>
+          <h5 class="open-post__title">#ElecProducts-Design</h5>
+          <h6 class="open-post__hashtags">#smart#phone#electronics</h6>
           <div class="open-post__memembers">
             <img src="/profileimages/noah-buscher-unsplash.jpg" alt="#" />
             <span class="open-post__memember-count">326 memebers</span>
@@ -134,7 +133,7 @@
         </div>
         <div class="open-post__columns">
           <div class="open-post__photo">
-            <img src="./profileimages/food-unsplash.jpg" alt="#" />
+            <img src="./profileimages/smartphone-unsplash.jpg" alt="#" />
             <div class="open-post__heart-count">
               <i class="fas fa-heart fa-xs"></i> <span>102</span>
             </div>
@@ -143,8 +142,8 @@
       </div>
       <div class="open-post">
         <div class="open-post__columns">
-          <h5 class="open-post__title">#Stress-relief</h5>
-          <h6 class="open-post__hashtags">#stress#treatment#relief#med</h6>
+          <h5 class="open-post__title">#Service-Design</h5>
+          <h6 class="open-post__hashtags">#boring#but#essential#part</h6>
           <div class="open-post__memembers">
             <img src="/profileimages/christian-ferrer-unsplash.jpg" alt="#" />
             <span class="open-post__memember-count">672 memebers</span>
@@ -171,7 +170,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
+          <a class="nav__link" href="groups.html">
             <span class="nav__notification badge">1</span
             ><i class="far fa-comment fa-2x"></i>
           </a>
