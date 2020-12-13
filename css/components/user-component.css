@@ -48,8 +48,11 @@
   flex-direction: column;
   align-items: flex-end;
 }
-
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+.clever > .fa-plus:hover {
+  transition: color 0.4s ease-in-out;
+  color: var(--point-blue);
 }
