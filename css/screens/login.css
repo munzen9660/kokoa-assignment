@@ -1,6 +1,6 @@
 .welcome-header {
   margin-top: 120px;
-  margin-bottom: 64px;
+  margin-bottom: 66px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   color: white;
 }
 .welcome-header__title {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   font-size: 25px;
   font-weight: 600;
 }
@@ -30,6 +30,9 @@
   font-size: 18px;
   margin-bottom: 20px;
   background-color: var(--cool-grey);
+}
+#login-form input:nth-child(2) {
+  margin-bottom: 36px;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1.6px solid rgba(0, 0, 0, 0.2);
